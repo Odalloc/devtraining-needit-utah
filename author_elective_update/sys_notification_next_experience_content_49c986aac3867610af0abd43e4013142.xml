@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_next_experience_content">
+    <sys_notification_next_experience_content action="DELETE">
+        <action_name/>
+        <action_payload/>
+        <active>true</active>
+        <is_default>false</is_default>
+        <message><![CDATA[Dear ${assigned_to.first_name},
+
+An overdue Needlt Task is assigned to you:
+
+Number: ${number}
+Short description: ${short_description}
+
+Please complete this task as soon as possible.
+Click here to view the Needlt Task: ${URI_REF}]]></message>
+        <message_heading><![CDATA[Overdue NeedIt Task: ${number}]]></message_heading>
+        <name>Overdue Needlt Task Content</name>
+        <notification display_value="Overdue Needlt Task">ae370666c3867610af0abd43e40131cd</notification>
+        <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
+        <sys_class_name>sys_notification_next_experience_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-29 07:37:11</sys_created_on>
+        <sys_id>49c986aac3867610af0abd43e4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overdue Needlt Task Content</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_notification_next_experience_content_49c986aac3867610af0abd43e4013142</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-29 07:37:11</sys_updated_on>
+        <use_action>false</use_action>
+    </sys_notification_next_experience_content>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2e044535dbf6715038f117291396195a</instance_id>
+        <instance_name>dev228613</instance_name>
+        <name>sys_notification_next_experience_content_49c986aac3867610af0abd43e4013142</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_notification_next_experience_content"&gt;&lt;sys_notification_next_experience_content action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;action_payload/&gt;&lt;active&gt;true&lt;/active&gt;&lt;is_default&gt;false&lt;/is_default&gt;&lt;message&gt;&lt;![CDATA[Dear ${assigned_to.first_name},
+
+An overdue Needlt Task is assigned to you:
+
+Number: ${number}
+Short description: ${short_description}
+
+Please complete this task as soon as possible.
+Click here to view the Needlt Task: ${URI_REF}]]&gt;&lt;/message&gt;&lt;message_heading&gt;&lt;![CDATA[Overdue NeedIt Task: ${number}]]&gt;&lt;/message_heading&gt;&lt;name&gt;Overdue Needlt Task Content&lt;/name&gt;&lt;notification display_value="Overdue Needlt Task"&gt;ae370666c3867610af0abd43e40131cd&lt;/notification&gt;&lt;route display_value="Next Experience Route"&gt;bccd1214533201107cd3ddeeff7b1289&lt;/route&gt;&lt;sys_class_name&gt;sys_notification_next_experience_content&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-29 07:37:11&lt;/sys_created_on&gt;&lt;sys_id&gt;49c986aac3867610af0abd43e4013142&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Overdue Needlt Task Content&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_notification_next_experience_content_49c986aac3867610af0abd43e4013142&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-29 07:37:11&lt;/sys_updated_on&gt;&lt;use_action&gt;false&lt;/use_action&gt;&lt;/sys_notification_next_experience_content&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-282157798</payload_hash>
+        <record_name>Overdue Needlt Task Content</record_name>
+        <reverted_from/>
+        <source>b3d5fde6c3c27610af0abd43e40131f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-29 07:37:11</sys_created_on>
+        <sys_id>0caa0eeac3867610af0abd43e4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b690a270b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-29 07:37:11</sys_updated_on>
+        <type>Notification Next Experience Content</type>
+        <update_guid>c8aa0eeab88676101e36fb302fb70b52</update_guid>
+        <update_guid_history>c8aa0eeab88676101e36fb302fb70b52:-282157798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-29 07:45:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_notification_next_experience_content">sys_notification_next_experience_content</sys_db_object>
+        <sys_id>c65c99f5cbec4d87ac79b72382559a49</sys_id>
+        <sys_metadata>49c986aac3867610af0abd43e4013142</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overdue Needlt Task Content</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_notification_next_experience_content_49c986aac3867610af0abd43e4013142</sys_update_name>
+        <sys_update_version display_value="sys_notification_next_experience_content_49c986aac3867610af0abd43e4013142">0caa0eeac3867610af0abd43e4013153</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-29 07:45:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
